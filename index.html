@@ -555,18 +555,17 @@
                 </div>
                 <div class="project-desc">
                     <ul>
-                        <li>Description: Participated in the development of an internal mobile application for reporting and tracking equipment incidents.</li>
+                        <li>Description: An internal mobile application used by field employees to report and track equipment incidents at Digitech Solution.</li>
                         <li>Responsibilities:
                             <ul class="sub-list">
-                                <li>Transformed design mockups into responsive Flutter widgets, building core forms and reusable components.</li>
-                                <li>Implemented camera capture feature using image_picker for real-time photo attachment of damaged equipment.</li>
-                                <li>Integrated RESTful APIs for equipment data fetching and incident report submission with JSON parsing and async data loading.</li>
-                                <li>Applied Provider pattern for authentication state and data flow management with SharedPreferences for persistent sessions.</li>
-                                <li>Collaborated with QC teams to track and resolve functional issues, ensuring system stability before release.</li>
+                                <li>Built the equipment incident reporting UI with custom reusable widgets: dropdown equipment selector (dropdown_button2), multi-line text fields for incident description, and camera capture component.</li>
+                                <li>Implemented camera capture and image attachment using image_picker, allowing employees to photograph damaged equipment directly within the report form.</li>
+                                <li>Integrated RESTful APIs (http package) with Bearer token authentication to fetch equipment lists and submit incident reports, using JSON serialization (json_annotation + build_runner) for data models.</li>
+                                <li>Applied MVVM architecture with Provider (ChangeNotifier) for authentication state management and persistent login sessions via SharedPreferences.</li>
                             </ul>
                         </li>
                     </ul>
-                    <div class="project-meta"><strong>Technologies:</strong> Flutter, Dart, Provider, HTTP (REST API), SharedPreferences, Git, Android Studio.</div>
+                    <div class="project-meta"><strong>Technologies:</strong> Flutter, Dart, Provider (ChangeNotifier), HTTP (REST API), json_annotation, build_runner, image_picker, dropdown_button2, SharedPreferences, MVVM.</div>
                     <div class="project-meta"><strong>Role:</strong> Mobile Developer Intern.</div>
                     <div class="project-link">Link: <a href="https://play.google.com/store/apps/details?id=com.digitech.iman" target="_blank">Google Play Store</a></div>
                 </div>
@@ -594,8 +593,8 @@
                     </ul>
                     <div class="project-meta"><strong>Technologies:</strong> Flutter, Dart, Custom Game Engine (no Flame), animated_text_kit, audioplayers, Custom Fonts, Sprite Sheets, Firebase Hosting.</div>
                     <div class="project-meta"><strong>Role:</strong> Solo Developer — Game Design, Programming, Art Direction, Deployment.</div>
-                    <div class="project-link">Web Demo: <a href="https://baooan.web.app/" target="_blank">https://baooan.web.app/</a></div>
-                    <div class="project-link">Mobile Trailer: <a href="https://drive.google.com/file/d/1jkJiGMcbtrbWa6vr5JTuPJ7pCmi54UNP/view" target="_blank">Watch on Google Drive</a></div>
+                    <div class="project-link">🌐 Web Demo: <a href="https://baooan.web.app/" target="_blank">https://baooan.web.app/</a></div>
+                    <div class="project-link">📱 Mobile Trailer: <a href="https://drive.google.com/file/d/1jkJiGMcbtrbWa6vr5JTuPJ7pCmi54UNP/view" target="_blank">Watch on Google Drive</a></div>
                 </div>
             </div>
         </div>
@@ -618,6 +617,5 @@
 
     </div>
 </div>
-
 </body>
 </html>
